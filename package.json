@@ -1,0 +1,14 @@
+{
+  "name": "gekkobot",
+  "version": "1.0.0",
+  "description": "A reddit bot for use with gekko",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "snoocore": "^3.3.1"
+  }
+}
