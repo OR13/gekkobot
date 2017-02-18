@@ -5,7 +5,7 @@ A reddit bot for use with [gekko](https://github.com/OR13/gekko)
 ## Getting Started
 
 - [Create a reddit account](https://www.reddit.com/login)
-- [Create app of type script](https://www.reddit.com/prefs/apps/)
+- [Create a script app](https://www.reddit.com/prefs/apps/)
 - Add env variables to bash profile (see index.js)
 
 ```

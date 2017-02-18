@@ -4,11 +4,15 @@
   "description": "A reddit bot for use with gekko",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf .node-persist && rm -rf raw_slices/*.json",
+    "test": "find ./src -name '*.spec.js' | xargs mocha -R spec"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.4.7",
+    "mocha": "^3.2.0",
+    "node-persist": "^2.0.8",
     "snoocore": "^3.3.1"
   }
 }
